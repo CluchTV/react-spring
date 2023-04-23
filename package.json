@@ -33,7 +33,7 @@
     "build-ci": "turbo run build --filter=!@react-spring/doc",
     "build": "turbo run build",
     "changeset": "changeset",
-    "clean": "turbo run clean && rm -rf node_modules",
+    "clean": "turbo run clean",
     "dev": "turbo run dev --no-cache --parallel --continue",
     "docs:dev": "yarn workspace @react-spring/docs dev",
     "docs:build": "yarn workspace @react-spring/docs build",

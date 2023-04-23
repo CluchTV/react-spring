@@ -2,14 +2,14 @@
   "name": "@react-spring/animated",
   "version": "9.7.2",
   "description": "Animated component props for React",
-  "main": "./dist/cjs/index.js",
+  "main": "./dist/index.js",
   "module": "./dist/react-spring_animated.legacy-esm.js",
   "types": "./dist/react-spring_animated.d.ts",
   "exports": {
     ".": {
       "types": "./dist/react-spring_animated.d.ts",
       "import": "./dist/react-spring_animated.mjs",
-      "require": "./dist/cjs/index.js"
+      "require": "./dist/index.js"
     }
   },
   "files": [

@@ -63,7 +63,7 @@ export const defaultConfig = (
           [`${name}.cjs.development`]: entry,
         },
         format: 'cjs',
-        outDir: './dist/cjs/',
+        outDir: './dist/',
       },
       // CJS production
       {
@@ -73,11 +73,11 @@ export const defaultConfig = (
           [`${name}.cjs.production.min`]: entry,
         },
         format: 'cjs',
-        outDir: './dist/cjs/',
+        outDir: './dist/',
         onSuccess: async () => {
           // Write the CJS index file
           fs.writeFileSync(
-            'dist/cjs/index.js',
+            'dist/index.js',
             `
 'use strict'
 if (process.env.NODE_ENV === 'production') {

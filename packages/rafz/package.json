@@ -2,14 +2,14 @@
   "name": "@react-spring/rafz",
   "version": "9.7.2",
   "description": "react-spring's fork of rafz one frameloop to rule them all",
-  "main": "./dist/cjs/index.js",
+  "main": "./dist/index.js",
   "module": "./dist/react-spring_rafz.legacy-esm.js",
   "types": "./dist/react-spring_rafz.d.ts",
   "exports": {
     ".": {
       "types": "./dist/react-spring_rafz.d.ts",
       "import": "./dist/react-spring_rafz.mjs",
-      "require": "./dist/cjs/index.js"
+      "require": "./dist/index.js"
     }
   },
   "files": [
