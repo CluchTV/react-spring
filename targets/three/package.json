@@ -1,14 +1,14 @@
 {
   "name": "@react-spring/three",
   "version": "9.7.2",
-  "main": "./dist/index.js",
+  "main": "./dist/cjs/index.js",
   "module": "./dist/react-spring_three.legacy-esm.js",
-  "types": "./dist/react-spring_three.d.ts",
+  "types": "./dist/react-spring_three.modern.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/react-spring_three.d.ts",
-      "import": "./dist/react-spring_three.mjs",
-      "require": "./dist/index.js"
+      "types": "./dist/react-spring_three.modern.d.ts",
+      "import": "./dist/react-spring_three.modern.mjs",
+      "require": "./dist/cjs/index.js"
     }
   },
   "files": [

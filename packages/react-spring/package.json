@@ -1,14 +1,14 @@
 {
   "name": "react-spring",
   "version": "9.7.1",
-  "main": "./dist/index.js",
+  "main": "./dist/cjs/index.js",
   "module": "./dist/react-spring.legacy-esm.js",
-  "types": "./dist/react-spring.d.ts",
+  "types": "./dist/react-spring.modern.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/react-spring.d.ts",
-      "import": "./dist/react-spring.mjs",
-      "require": "./dist/index.js"
+      "types": "./dist/react-spring.modern.d.ts",
+      "import": "./dist/react-spring.modern.mjs",
+      "require": "./dist/cjs/index.js"
     }
   },
   "files": [

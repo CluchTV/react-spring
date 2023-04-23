@@ -1,14 +1,14 @@
 {
   "name": "@react-spring/parallax",
   "version": "9.7.2",
-  "main": "./dist/index.js",
+  "main": "./dist/cjs/index.js",
   "module": "./dist/react-spring_parallax.legacy-esm.js",
-  "types": "./dist/react-spring_parallax.d.ts",
+  "types": "./dist/react-spring_parallax.modern.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/react-spring_parallax.d.ts",
-      "import": "./dist/react-spring_parallax.mjs",
-      "require": "./dist/index.js"
+      "types": "./dist/react-spring_parallax.modern.d.ts",
+      "import": "./dist/react-spring_parallax.modern.mjs",
+      "require": "./dist/cjs/index.js"
     }
   },
   "files": [

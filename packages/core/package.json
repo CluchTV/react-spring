@@ -1,14 +1,14 @@
 {
   "name": "@react-spring/core",
   "version": "9.7.2",
-  "main": "./dist/index.js",
+  "main": "./dist/cjs/index.js",
   "module": "./dist/react-spring_core.legacy-esm.js",
-  "types": "./dist/react-spring_core.d.ts",
+  "types": "./dist/react-spring_core.modern.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/react-spring_core.d.ts",
-      "import": "./dist/react-spring_core.mjs",
-      "require": "./dist/index.js"
+      "types": "./dist/react-spring_core.modern.d.ts",
+      "import": "./dist/react-spring_core.modern.mjs",
+      "require": "./dist/cjs/index.js"
     }
   },
   "files": [
