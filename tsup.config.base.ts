@@ -70,7 +70,7 @@ export const defaultConfig = (
         ...commonOptions,
         ...productionOptions,
         entry: {
-          [`${name}.cjs.production`]: entry,
+          [`${name}.cjs.production.min`]: entry,
         },
         format: 'cjs',
         outDir: './dist/cjs/',

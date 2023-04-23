@@ -76,8 +76,7 @@ describe('animated component', () => {
         style={{
           opacity: opacity,
           color: 'red',
-        }}
-      >
+        }}>
         Text
       </AnimatedName>
     )
@@ -95,8 +94,7 @@ describe('animated component', () => {
         scrollTop={scrollTop}
         scrollLeft={0}
         style={{ height: 100 }}
-        data-testid="wrapper"
-      >
+        data-testid="wrapper">
         <div style={{ height: 200 }} />
       </a.div>
     )
